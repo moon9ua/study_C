@@ -1,3 +1,6 @@
+// 상수 (https://www.acmicpc.net/problem/2908)
+
+
 // <시도하다가 포기>
 // 일단 내가 (문자열의) reverse 문제를 아직 잘 못함. (final exam에서도 헤매다가 어쩌다가 패스함)
 // 그리고 scanf를 아직 잘 모르겠음.
@@ -13,7 +16,6 @@
 // 	scanf("%s %s", a, b); // 띄어쓰기를 기준으로 했었나? 그랬던것같은데.
 // 	printf("%s %s", a, b);
 // }
-
 
 
 // <OK code>

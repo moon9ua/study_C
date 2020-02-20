@@ -1,5 +1,7 @@
-// <OK code>
+// 대소문자 바꾸기 (https://www.acmicpc.net/problem/2744)
 
+
+// <OK code>
 #include <stdio.h>
 
 int main()
@@ -23,6 +25,5 @@ int main()
 		}		
 		i++;
 	}
-
 	printf("%s\n", str);
 }

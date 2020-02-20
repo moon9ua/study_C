@@ -1,3 +1,7 @@
+// 소인수분해 (https://www.acmicpc.net/problem/11653)
+
+
+// <OK code>
 #include <stdio.h>
 
 int main()

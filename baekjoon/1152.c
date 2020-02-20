@@ -1,3 +1,6 @@
+// 단어의 개수 (https://www.acmicpc.net/problem/1152)
+
+
 // <OK code>
 #include <stdio.h>
 
