@@ -1,4 +1,4 @@
-// (*) 문자열 분석 (https://www.acmicpc.net/problem/10820)
+// 문자열 분석 (https://www.acmicpc.net/problem/10820)
 
 
 // <OK code>
