@@ -1,36 +1,37 @@
 // 49. 구조체 포인터 사용하기 (https://dojang.io/mod/page/view.php?id=418)
-
 /*
 구조체는 멤버 변수가 여러개 들어있어 크기가 큰 편.
 따라서 구조체 변수를 일일이 선언하는 것보다,
 포인터에 메모리를 할당해서 사용하는 편이 효율적. (이해X)
 */
 
-// #include <stdio.h>
-// #include <string.h>
-// #include <stdlib.h>
+/*
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
-// struct Person
-// {
-// 	char name[20];
-// 	int age;
-// 	char address[100];
-// };
+struct Person
+{
+	char name[20];
+	int age;
+	char address[100];
+};
 
-// int main()
-// {
-// 	struct Person *p1 = malloc(sizeof(struct Person));
-// 	strcpy(p1->name, "홍길동"); // -> 는 화살표 연산자라고 한다.
-// 	p1->age=30;
-// 	strcpy(p1->address, "서울시 용산구 한남동");
+int main()
+{
+	struct Person *p1 = malloc(sizeof(struct Person));
+	strcpy(p1->name, "홍길동"); // -> 는 화살표 연산자라고 한다.
+	p1->age=30;
+	strcpy(p1->address, "서울시 용산구 한남동");
 
-// 	printf("이름: %s\n", p1->name);
-// 	printf("나이: %d\n", p1->age);
-// 	printf("주소 %s\n", p1->address);
+	printf("이름: %s\n", p1->name);
+	printf("나이: %d\n", p1->age);
+	printf("주소 %s\n", p1->address);
 
-// 	free(p1);
-// 	return 0;
-// }
+	free(p1);
+	return 0;
+}
+*/
 
 /*
 p1->age; // 화살표 연산자로 멤버에 접근.
@@ -38,6 +39,7 @@ p1->age; // 화살표 연산자로 멤버에 접근.
 */
 
 // 구조체의 멤버가 포인터일 때 역참조하기.
+
 #include <stdio.h>
 #include <stdlib.h>
 

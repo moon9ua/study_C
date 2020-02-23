@@ -23,9 +23,7 @@ int main()
 	printf("주소: %s\n", p1.address);
 }
 
-
 // <cf) typedef>
-
 /*
 typedef int MYINT;
 typedef int* PMYINT;
@@ -37,7 +35,6 @@ numPtr = &num1;
 */
 
 // <cf) 구조체 태그>
-
 /*
 struct나 typedef struct 다음에 붙이는 이름에는 앞에 _를 붙이는 것이 관례였음.
 */

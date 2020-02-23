@@ -1,14 +1,12 @@
 // 74. 연결리스트 구현하기 (https://dojang.io/mod/page/view.php?id=644)
 
+// 연결리스트 구조체 만들고 사용하기
+
 struct NODE
 {
 	struct NODE *next;
 	int data;
 };
-
-/*
-내가 못 푼 final exam의 문제가 연결리스트였다! 알고 보니 신기하다.
-*/
 
 #include <stdio.h>
 #include <stdlib.h> // malloc, free

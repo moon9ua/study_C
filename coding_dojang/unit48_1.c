@@ -1,4 +1,5 @@
 // 48. 구조체 사용하기 (https://dojang.io/mod/page/view.php?id=407)
+
 /*
 #include <stdio.h>
 #include <string.h> // strcpy 쓰려고.
@@ -27,6 +28,7 @@ int main()
 */
 
 // 구조체를 정의하는 동시에 변수 선언.
+
 /*
 #include <stdio.h>
 #include <string.h>
@@ -53,6 +55,7 @@ int main()
 */
 
 // 구조체 변수를 선언하는 동시에 초기화하기
+
 #include <stdio.h>
 
 struct Person
